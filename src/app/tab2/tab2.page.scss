@@ -4,7 +4,30 @@ margin-top: 20px;
 justify-content: space-around;
 flex: 1;
 }
-ion-label{
-  margin: 20px;
+ion-card-title{
+  text-align: center;
   font-size: 22px;
+}
+ion-label{
+
+  font-size: 30PX;
+}
+
+.div2{
+  width: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+.card1{
+  width: 175px
+
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
