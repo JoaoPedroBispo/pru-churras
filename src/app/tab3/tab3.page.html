@@ -1,17 +1,30 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 3
+    <ion-title class="ion-text-center">
+      Dado
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <div class="container">
+    <div class="card">
+
+      <div class="input">
+        <ion-input>Tamanho: <span></span></ion-input>
+      </div>
+
+      <img src="assets/dado.png" alt="">
+
+      <div class="dado">
+        <h1>Valor do dado: <span>{{ valordado }} </span></h1>
+      </div>
+
+      <div class="jogardado" class="ion-text-center">
+        <ion-button color="corlimpar">Jogar Dado!</ion-button>
+      </div>
+
+    </div>
+  </div>
 </ion-content>
